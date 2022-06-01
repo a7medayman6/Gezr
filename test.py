@@ -2,8 +2,8 @@ from ArStem import ArabicStemmer
 
 stemmer = ArabicStemmer()
 
+words = [ "استوصف", "اتبع", "تبعية", "المُستصغَرون", "فاستضعفناهُما", "أفاستسقيناكموها", "وليتلطف", "تجربة", "مخطئ", "أرشد", "الرَحمن", "مرحبا", "ركعة", "فاسقيناكموها", "ارتقب"]
 
-str = "فاستضعفناهما المستصغرون فاسقيناكموها أفاستسقيناكموها وليتلطف"
-stemmed, df = stemmer.stem(str)
+stemmed, df = stemmer.stem(' '.join(words), verbose=True)
+
 print(df)
-print(stemmed)
