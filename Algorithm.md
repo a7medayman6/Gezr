@@ -1,4 +1,4 @@
-## SENTENCE LEVEL
+## Algorithm
 
 1. Tokenization
 2. Stop Words Removal

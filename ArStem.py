@@ -1,4 +1,3 @@
-from sqlalchemy import true
 import Constants as const
 from nltk.corpus import stopwords
 from pyarabic.araby import tokenize, is_arabicrange, strip_tashkeel
