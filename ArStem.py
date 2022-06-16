@@ -1,4 +1,5 @@
 import Constants as const
+import nltk
 from nltk.corpus import stopwords
 from pyarabic.araby import tokenize, is_arabicrange, strip_tashkeel
 import pandas as pd
@@ -6,6 +7,7 @@ import json
 
 class ArabicStemmer:
     def __init__(self):
+        nltk.download('stopwords')
         f = open('roots.json', 'r')
         self.roots = json.load(f)
         f.close()
