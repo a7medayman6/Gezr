@@ -4,7 +4,7 @@ import streamlit as st
 
 from streamlit import cli as stcli
 
-from ArStem import ArabicStemmer
+from Gezr import ArabicStemmer
 
 
 stemmer = ArabicStemmer()

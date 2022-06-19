@@ -1,4 +1,4 @@
-from ArStem import ArabicStemmer
+from Gezr import ArabicStemmer
 
 stemmer = ArabicStemmer()
 

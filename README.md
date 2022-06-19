@@ -1,6 +1,6 @@
-# ArStem - Light-based Arabic Stemmer 
+# Gezr - Light-based Arabic Stemmer 
 
-ArStem is a light-based Arabic stemmer using rules applied based on token length.
+Gezr is a light-based Arabic stemmer using rules applied based on token length.
 
 - Refer to [the example notebook](Example.ipynb) to learn how to use it, and see an output example.
 
