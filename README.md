@@ -2,8 +2,12 @@
 
 ArStem is a light-based Arabic stemmer using rules applied based on token length.
 
-- Read [the example notebook](Example.ipynb) to learn how to use it, and see an output example.
-- Read [the algorithm file](Algorithm.md) for the algorithm steps.
+- Refer to [the example notebook](Example.ipynb) to learn how to use it, and see an output example.
+
+## Algorithm
+![](imgs/Arstem.algo.jpg)
+
+- Refer to [the algorithm](Algorithm.md) for the algorithm steps.
 
 ## References
 
